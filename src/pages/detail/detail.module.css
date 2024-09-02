@@ -1,0 +1,39 @@
+.container {
+    padding: 0 14px;
+    color: #FFFFFF;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.content {
+    background-color: #0F0F0F;
+    margin: 24px auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 420px;
+    border-radius: 14px;
+    gap: 14px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    transition: all 1s;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+}
+
+.profit {
+    color: #12F98A;
+}
+
+.loss {
+    color: #F91257;
+}
